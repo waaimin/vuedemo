@@ -1,0 +1,45 @@
+#第一次提交笔记
+
+## 文件介绍
+
+### 项目运行 => README.md
+ 
+### 关闭eslint的约束   file => vue.config.js  lintOnSave
+
+### 项目的秒速 => pack.json
+
+### 自动补充兼容性代码 => .postcssrc.js
+
+### git提交忽略文件  => .gitignore
+
+### 配置eslint的规则 => .eslintrc.js -> rules
+
+### 公共文件 => public（图标和打包后的index模板） 
+
+### 项目的主文件 => src
+
+### 静态文件（图标字体或者图片） => assets
+
+### 项目的组建 => components
+
+### 页面视图 => views
+
+### 基础组建  =>  App.vue
+
+### 项目入口文件（插件的引入）  => main.js  
+
+### 路由文件 => router.js
+
+### vuex状态管理文件  => store.js
+
+### 制定编写代码习惯 新建=>.editorconfig ->安装插件（EditorConfig for VS Code）
+
+## 文件准备(src)
+
+### 新建文件夹api => 存放ajax请求 
+
+### 项目的配置 => src -> config -> index.js
+
+### 新建文件夹directive => 存放自定义指令
+
+### 新建文件夹lib => 存放工具 -> util.js(与业务有关的工具) -> tools(与业务无关的工具)

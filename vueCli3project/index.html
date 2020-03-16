@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div>
+        <input type="text" onchange="num1(1,2,3,3,3)">
+        <input type="text" oninput="num2()">
+        <div class="num"></div>
+    </div>
+</body>
+<script>
+    var input = document.getElementsByTagName('input')[1];
+    var a = 8;
+    var result = '';
+    switch (a) {
+        case 1:
+            result = "我是数字一"
+            break;
+        case 2:
+            result = "我是数字2"
+            break;
+        default:
+            result = "3"
+            break;
+    }
+    // input.value = result
+
+    console.log(result)
+    console.log(input)
+
+    function num1() {
+        // console.log(222)
+        console.log(arguments)
+    }
+
+    function num2() {
+        // console.log(333)                                          
+    }
+
+    for (
+        var i = 0, pu = ''; i < 100; i++, pu += "i ") {
+        // console.log(pu)
+    }
+
+    //99乘法表
+    var tables = "";
+    var bbb = ""
+    for (var s = 1; s < 10; s++) {
+        tables = "";
+        for (var j = 1 ; j <=s; j++){
+            bbb = ""
+            bbb = j +"*"+ s+"="+j*s+" ";
+            tables = tables+bbb
+            
+        }
+        console.log(tables)
+        // tables = tables+bbb
+        
+        // console.log(tables+'/\n')
+    }
+
+    // for(var h=1;h<=9;h++){
+	// 	for(var n=1;n<=i;n++){
+	// 		document.write(n+"*"+h+"="+h*n);
+	// 	}
+	// 	document.write("<br/>")
+	// }
+	// document.write("<br/>")
+</script>
+
+</html> 
